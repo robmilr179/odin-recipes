@@ -122,3 +122,113 @@ nav ul li a{
     width: 100px;
     height: 100px;
 }
+
+/* THIS IS ANOTHER SECTION THIS WILL CONTAIN A GRID WILL PICTURES AND A TITLE WITH A SHORT DESCRIPTION */
+.pic-list-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 60px;
+    gap: 30px;
+    justify-content: center;
+}
+.wrap-2 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    opacity: .8;
+    border: 1px solid #58A18B;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.wrap-2-top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: atuo;
+}
+.wrap-2 h2:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.wrapper2{
+    background-color: #F8EAE3;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.wrapper2 a{
+    text-decoration: none;
+}
+.wrapper2 a:visited{
+    color: black;
+}
+.wrapper2 img{
+    height: 250px;
+    width:auto;
+}
+
+
+/*This next section will contain a picture and some text on it advertising the website */
+
+.txt-on-pic{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    margin: 40px;
+    color: #58A18B;
+    background-color: #F8EAE3;
+    border-radius: 10px;
+    padding: 5px;
+}
+.txt-on-pic a{
+    text-decoration: none;
+}
+.txt-on-pic A:visited{
+    text-decoration: none;
+    color:#58A18B;
+}
+.wrap-3{
+    position: relative;
+}
+.wrap-3 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/*This is the footer and will contain extra information along with some extra linnks */
+
+footer{
+    margin-top: 50px;
+    background-color: #F8EAE3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+}
+.foot-img-holder img{
+    height: 180px;
+    width: auto;
+    margin: auto;
+}
+.foot-text-block{
+    font-size: 18px;
+    opacity: .8;
+    text-align: center;
+}
+.foot-text-block p a{
+    text-decoration: none;
+    color: #1D4E42;
+}
+.foot-text-block p a:visited{
+    color:#1D4E42;
+}
+.foot-text-block p{
+    padding: 16px;
+}
